@@ -1,0 +1,6 @@
+{
+  "name": "LSM Reconocedor",
+  "description": "Reconocedor de señas básicas de LSM (Lengua de Señas Mexicana) con captura de landmarks, clasificadores ML (KNN, SVM, Random Forest, MLP), dataset y texto/voz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

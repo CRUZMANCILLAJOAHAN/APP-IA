@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Hand skeleton bones / landmark links -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M54,82 L42,66 L34,54 L29,46
+                          M54,82 L46,60 L44,44 L43,30 L42,22
+                          M54,82 L54,58 L54,42 L54,26 L54,18
+                          M54,82 L62,60 L64,44 L65,31 L66,23
+                          M54,82 L70,64 L74,52 L77,41 L79,33
+                          M42,66 L46,60 L54,58 L62,60 L70,64" />
+
+    <!-- Palm filled contour with transparency -->
+    <path
+        android:fillColor="#30FFFFFF"
+        android:pathData="M54,82 L42,66 L46,60 L54,58 L62,60 L70,64 Z" />
+
+    <!-- Hand landmark nodes (21 MediaPipe points) -->
+    <!-- Wrist -->
+    <path android:fillColor="#00F5D4" android:pathData="M54,82m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0" />
+
+    <!-- Thumb nodes -->
+    <path android:fillColor="#22D3EE" android:pathData="M42,66m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path android:fillColor="#22D3EE" android:pathData="M34,54m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path android:fillColor="#FBBF24" android:pathData="M29,46m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0" />
+
+    <!-- Index nodes -->
+    <path android:fillColor="#38BDF8" android:pathData="M46,60m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path android:fillColor="#38BDF8" android:pathData="M44,44m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path android:fillColor="#38BDF8" android:pathData="M43,30m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path android:fillColor="#F43F5E" android:pathData="M42,22m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0" />
+
+    <!-- Middle nodes -->
+    <path android:fillColor="#38BDF8" android:pathData="M54,58m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path android:fillColor="#38BDF8" android:pathData="M54,42m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path android:fillColor="#38BDF8" android:pathData="M54,26m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path android:fillColor="#F43F5E" android:pathData="M54,18m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0" />
+
+    <!-- Ring nodes -->
+    <path android:fillColor="#38BDF8" android:pathData="M62,60m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path android:fillColor="#38BDF8" android:pathData="M64,44m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path android:fillColor="#38BDF8" android:pathData="M65,31m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path android:fillColor="#F43F5E" android:pathData="M66,23m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0" />
+
+    <!-- Pinky nodes -->
+    <path android:fillColor="#38BDF8" android:pathData="M70,64m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path android:fillColor="#38BDF8" android:pathData="M74,52m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path android:fillColor="#38BDF8" android:pathData="M77,41m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+    <path android:fillColor="#F43F5E" android:pathData="M79,33m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0" />
+</vector>
